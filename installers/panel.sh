@@ -383,6 +383,11 @@ configure_nginx() {
   success "Nginx configured!"
 }
 
+# --------------- Theme Installation --------------- #
+
+sudo npm i -g yarn
+
+
 # --------------- Main functions --------------- #
 
 perform_install() {
