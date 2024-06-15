@@ -385,6 +385,9 @@ configure_nginx() {
 
 # --------------- Theme Installation --------------- #
 
+npm install -g n
+sudo n 14.21.3
+hash -r
 sudo npm i -g yarn
 
 
